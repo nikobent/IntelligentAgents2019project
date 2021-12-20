@@ -1,0 +1,2431 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#"
+     xml:base="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#blacklisted_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#blacklisted_by">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedLecturer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlacklistedByPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#courseBlaclistedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#day_displeases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#day_displeases">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPrefferedDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMindPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasCoursesInMind"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExamPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasExam"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRMPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRoom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopicPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRM"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopicPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesTopic"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isFriendWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isFriendWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatoryPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isMandatory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isPartOfB -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isPartOfB">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isSkilledAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isSkilledAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod1"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtBy"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod4"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCoursePeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedLecturer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedLecturer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedRm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedRm">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#rm_displeases"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPreferedTopic">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#topic_displeases"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPrefferedDay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#notPrefferedDay">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#prefersExam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#prefersExam">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#rm_displeases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#rm_displeases">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCoursePeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesCourse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDayPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#taughtAtDay"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#topic_displeases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#topic_displeases">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#building_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#building_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#course_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#course_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#course_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#course_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#day_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#day_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#exam_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#exam_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#has_prereq -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#has_prereq">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#lecturer_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#lecturer_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#mandatory_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#mandatory_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#person_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#person_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#person_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#person_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#rm_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#rm_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#room_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#room_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#student_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#student_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#topic_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#topic_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#hasRoom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isSkilledAt"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod1"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod2"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod3"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#teachesCoursesPeriod4"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod1"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod2"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod3"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTaughtByPeriod4"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#includesRMPeriod4"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#takesPlaceAtPeriod4"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Courses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isPartOfB"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod1"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod1"/>
+                                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod2"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod2"/>
+                                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod3"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod3"/>
+                                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod4"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#isTakenByPeriod4"/>
+                                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic22">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#AGENTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#AGENTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agents</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+        <building_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kbb</building_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+        <building_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bol</building_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+        <building_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbg</building_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Building"/>
+        <building_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rup</building_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic21"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Modeling</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Processing</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PSYCHOLOGY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PSYCHOLOGY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic22"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Psychology</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <hasExamPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING"/>
+        <hasTopicPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <includesRMPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1"/>
+        <isMandatoryPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MYES"/>
+        <isTaughtByPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC2"/>
+        <takesPlaceAtPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R1"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infomaid</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods in AI Research</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <hasExamPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2"/>
+        <isMandatoryPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC3"/>
+        <takesPlaceAtPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R2"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infocovi</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Vision</course_name>
+        <has_prereq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to Maching Learning</has_prereq>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <hasExamPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING"/>
+        <includesRMPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM4"/>
+        <isMandatoryPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC4"/>
+        <takesPlaceAtPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R11"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infocomo</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive Modeling</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC8"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R1"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infopare</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pattern Recognition</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <hasExamPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <includesRMPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC10"/>
+        <takesPlaceAtPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R12"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoloac</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic and Computation</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <hasExamPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM5"/>
+        <isMandatoryPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC7"/>
+        <takesPlaceAtPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R9"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoafds</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithms for Decision Support</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PSYCHOLOGY"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC10"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R1"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infophon</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philosophy of Neuroscience</course_name>
+        <has_prereq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philosophy of AI</has_prereq>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM5"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC7"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R5"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infotfle</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technologies for learning</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC4"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R2"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infosoco</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social Computing</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC9"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R4"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infonlpr</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural Language Processing</course_name>
+        <has_prereq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic and Language</has_prereq>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4C"/>
+        <hasExamPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY"/>
+        <includesRMPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC6"/>
+        <takesPlaceAtPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R11"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoeili</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimentation in Linguistics</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <hasExamPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#INTELLIGENT_AGENTS"/>
+        <includesRMPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2"/>
+        <isMandatoryPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC1"/>
+        <takesPlaceAtPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R4"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoinag</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intelligent Agents</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <hasExamPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <includesRMPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC5"/>
+        <takesPlaceAtPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R8"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoevco</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evolutionary Computing</course_name>
+        <has_prereq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compuational Argumentation</has_prereq>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1C"/>
+        <hasExamPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM5"/>
+        <isMandatoryPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC3"/>
+        <takesPlaceAtPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R5"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <taughtAtDayPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infoinml</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to Maching Learning</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <hasExamPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MULTIAGENT_SYSTEMS"/>
+        <includesRMPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2"/>
+        <isMandatoryPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC1"/>
+        <takesPlaceAtPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R11"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infomusy</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiagent Systems</course_name>
+        <has_prereq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intelligent Agents</has_prereq>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <hasExamPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#AGENTS"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <includesRMPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MYES"/>
+        <isTaughtByPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC2"/>
+        <takesPlaceAtPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R7"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infopai</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philosophy of AI</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <hasExamPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO"/>
+        <hasTopicPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1"/>
+        <isMandatoryPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC8"/>
+        <takesPlaceAtPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R6"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infodami</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Mining</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <hasExamPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO"/>
+        <hasTopicPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY"/>
+        <includesRMPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3"/>
+        <isMandatoryPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC6"/>
+        <takesPlaceAtPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R9"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infolala</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic and Language</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2C"/>
+        <hasExamPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO"/>
+        <hasTopicPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <includesRMPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM4"/>
+        <isMandatoryPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC5"/>
+        <takesPlaceAtPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R3"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO"/>
+        <taughtAtDayPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infocoar</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compuational Argumentation</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3C"/>
+        <hasExamPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO"/>
+        <hasTopicPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <includesRMPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM4"/>
+        <isMandatoryPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO"/>
+        <isTaughtByPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC9"/>
+        <takesPlaceAtPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R2"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR"/>
+        <taughtAtDayPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU"/>
+        <course_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infodasc</course_id>
+        <course_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science</course_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ENO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+        <exam_name rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</exam_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Exam"/>
+        <exam_name rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</exam_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#FR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <day_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friday</day_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#INTELLIGENT_AGENTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#INTELLIGENT_AGENTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic11"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intelligent Agents</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#AGENTS"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#INTELLIGENT_AGENTS"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MULTIAGENT_SYSTEMS"/>
+        <teachesCoursesPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS2"/>
+        <teachesCoursesPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS4"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinar</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PSYCHOLOGY"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <teachesCoursesPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS13"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuesta</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#AGENTS"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <teachesCoursesPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <teachesCoursesPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adams</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <teachesCoursesPeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3"/>
+        <teachesCoursesPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siopis</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_MODELING"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <teachesCoursesPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS11"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michels</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <teachesCoursesPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS8"/>
+        <teachesCoursesPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS20"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eriksen</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION"/>
+        <teachesCoursesPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS7"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS19"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basha</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#COGNITIVE_PROCESSING"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <teachesCoursesPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS14"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS16"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Younes</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <teachesCoursesPeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS6"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS12"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brown</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LEC9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Lecturer"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY"/>
+        <isSkilledAt rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING"/>
+        <teachesCoursesPeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS9"/>
+        <teachesCoursesPeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS18"/>
+        <lecturer_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</lecturer_id>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose</person_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_COMPUTATION">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic31"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic And Computation</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#LOGIC_AND_PSYCHOLOGY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic32"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logic And Psychology</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MACHINE_LEARNING">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic4"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Learning</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MNO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+        <mandatory_name rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</mandatory_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <day_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monday</day_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MULTIAGENT_SYSTEMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MULTIAGENT_SYSTEMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic12"/>
+        <topic_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MULTIAGENT SYSTEMS</topic_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MYES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#MYES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Mandatory"/>
+        <mandatory_name rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</mandatory_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Period4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD1"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kbbr1</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD4"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rupr1</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD4"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rupr2</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD4"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rupr3</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD1"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kbbr2</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD1"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kbbr3</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD2"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bolr1</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD2"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bolr2</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD2"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bolr3</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD3"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbgr1</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD3"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbgr2</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#R9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Room"/>
+        <isPartOfB rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#BLD3"/>
+        <room_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbgr3</room_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rm_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Case Study</rm_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rm_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simulation</rm_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rm_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theory</rm_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rm_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey</rm_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#RM"/>
+        <rm_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literature Study</rm_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <prefersExam rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS6"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS9"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17"/>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pablo</person_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">101</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <prefersExam rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS11"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS7"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS14"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS12"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS19"/>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rafael</person_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <prefersExam rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS2"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS11"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS8"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS20"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17"/>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monica</person_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">103</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <prefersExam rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS7"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS9"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS16"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS18"/>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthur</person_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#ST5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Student"/>
+        <prefersExam rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#EYES"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS1"/>
+        <takesCoursePeriod1 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS3"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS10"/>
+        <takesCoursePeriod2 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS6"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS14"/>
+        <takesCoursePeriod3 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS5"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS15"/>
+        <takesCoursePeriod4 rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#CRS17"/>
+        <person_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</person_id>
+        <person_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark</person_name>
+        <student_id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">105</student_id>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <day_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</day_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#TU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <day_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuesday</day_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#WE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Days"/>
+        <day_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wednesday</day_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/krete/ontologies/2019/9/untitled-ontology-82#Topic4"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
